@@ -1,0 +1,68 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* The map container must have a defined height to render */
+#map {
+    height: 60vh;
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid #ddd;
+    margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+}
+
+.status-box {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.big-select {
+    height: 60px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.big-btn {
+    height: 100px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+    width: 100%;
+}
+
+.big-btn:active {
+    transform: scale(0.98);
+}
+
+.status-indicator {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+/* Ensure clear colors */
+.text-success { color: #28a745 !important; }
+.text-danger { color: #dc3545 !important; }
